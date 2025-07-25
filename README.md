@@ -1,0 +1,2 @@
+# chatservercluster
+基于muduo网络库实现，通过nginx代理tcp请求实现服务器集群，通过redis发布-订阅机制将redis作为消息中间件实现跨服务器通信
