@@ -7,5 +7,6 @@ rm -rf *
 cmake ..
 make
 
-确保Nginx包含stream模块以支持TCP代理，并在配置文件中定义TCP后端服务器组与TCP监听服务
+确保Nginx包含stream模块以支持TCP代理，并在配置文件中定义TCP后端服务器组与TCP监听服务，指定负载均衡算法
+
 本项目Redis封装类使用无密码连接，如需支持带密码访问，请自行修改
