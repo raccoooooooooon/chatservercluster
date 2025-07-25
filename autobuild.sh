@@ -1,6 +1,6 @@
 set -x
-
-rm -rf `pwd`/build/*
-cd `pwd`/build &&
-    cmake .. &&
-    make
+ 
+ rm -rf `pwd`/build/*
+ cd `pwd`/build &&
+     cmake .. &&
+     make
